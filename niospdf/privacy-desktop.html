@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — NiosPDF for Windows and Mac</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<h1>Privacy Policy for NiosPDF (Windows and Mac)</h1>
+<p class="meta">Package identity: <code>SiddharthPattnaik.NiosPDF</code><br>
+Last updated: 8 September 2026<br>
+Other platforms: <a href="privacy-android.html">Android</a> &middot; <a href="privacy-ios.html">iOS</a></p>
+
+<p>NiosPDF ("the app") is a PDF viewer and editor for Windows and macOS. This policy explains what
+the app does and does not do with your information. In short: <strong>NiosPDF does not collect,
+transmit, or sell your personal data, and your documents never leave your computer.</strong></p>
+
+<h2>1. Information we collect</h2>
+<p>We collect <strong>no personal information whatsoever</strong>. The app has no user accounts,
+no sign-in, no advertising, no analytics SDK, and no crash-reporting or telemetry SDK. We operate
+no servers and receive no data from your computer.</p>
+
+<h2>2. Your documents and files</h2>
+<p>Every operation — viewing, editing, merging, splitting, annotating, filling and signing forms,
+compressing, converting between PDF and Office formats, and optical character recognition (OCR) —
+is performed entirely <strong>on your computer</strong>. Your documents are never uploaded to us or
+to any third party.</p>
+
+<h2>3. Data stored on your computer</h2>
+<p>The app stores the following locally, in its own application data folder, so that it can work
+between sessions. This data stays on your computer and is removed when you uninstall the app or
+delete that folder:</p>
+<ul>
+  <li>A library index of documents you have opened, including file names, paths, page counts and thumbnails.</li>
+  <li>A text search index built from documents you choose to index, so search works offline.</li>
+  <li>Signatures and form-filling profile details (for example a name, address or email) that
+      <em>you</em> choose to save for reuse when filling and signing documents.</li>
+  <li>Recovery copies of in-progress edits, so unsaved work survives a crash or power loss.</li>
+  <li>Any OCR language packs you have chosen to install (see section 5).</li>
+  <li>App settings and preferences, such as theme, window layout and default OCR language.</li>
+</ul>
+
+<h2>4. Network use</h2>
+<p>NiosPDF is offline by design. It makes no network request while you view or edit a document,
+and it performs no background communication, update check or usage reporting. The app contacts the
+network in exactly two situations, both of which you start:</p>
+<ul>
+  <li><strong>Installing an OCR language pack.</strong> If you ask for a Tesseract language that is
+      not yet installed, the app downloads that language's data file directly from the public
+      <a href="https://github.com/tesseract-ocr/tessdata_fast">tesseract-ocr/tessdata_fast</a>
+      repository on GitHub. The request contains nothing but the language code; no document
+      content, identifier or personal data is sent. As with any web request, GitHub receives your
+      IP address and handles it under
+      <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</li>
+  <li><strong>Opening a link.</strong> When you click a web link — in a document or in the app —
+      the address is handed to your default browser, which does the fetching under its own policy.</li>
+</ul>
+
+<h2>5. OCR and text recognition</h2>
+<p>Text recognition runs entirely on your machine. On Windows the app uses the operating system's
+built-in <strong>Windows Media OCR</strong>; on macOS it uses Apple's built-in <strong>Vision</strong>
+framework; and optionally it uses <strong>Tesseract</strong>, an open-source engine bundled with the
+app. Page images and recognised text are never sent off the device by NiosPDF. The only network
+activity related to OCR is the language-pack download described in section 4.</p>
+
+<h2>6. Third-party components</h2>
+<p>The app bundles PDF, document-conversion and UI libraries — including Syncfusion, PdfPig,
+PDFsharp and Tesseract — all of which run locally and perform no network communication of their
+own.</p>
+
+<h2>7. Files, printing and sharing</h2>
+<ul>
+  <li><strong>File access.</strong> The app reads only the documents you explicitly open, import or
+      drag into it. It does not scan or index your drive on its own.</li>
+  <li><strong>File associations.</strong> On Windows you may choose to let NiosPDF open PDF files by
+      default. This registers the app with the operating system and involves no data collection.</li>
+  <li><strong>Printing.</strong> Printing hands the document to your operating system's print
+      system and the printer you select. NiosPDF sends nothing elsewhere.</li>
+  <li><strong>Sharing and export.</strong> If you export or share a file to another application,
+      that file and its handling then fall under that application's own privacy policy.</li>
+</ul>
+
+<h2>8. Store distribution</h2>
+<p>If you installed NiosPDF from the Microsoft Store or the Mac App Store, that store operates its
+own account, purchase and diagnostic systems, governed by
+<a href="https://privacy.microsoft.com/privacystatement">Microsoft's privacy statement</a> or
+<a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a> respectively. NiosPDF does
+not receive any of that data.</p>
+
+<h2>9. Children's privacy</h2>
+<p>NiosPDF is a general-purpose productivity tool and is not directed at children under 13. Because
+we collect no personal information from anyone, we do not knowingly collect it from children.</p>
+
+<h2>10. Data sharing, sale and retention</h2>
+<p>We do not share, sell, rent, or disclose personal data, because we do not collect any. There is
+no server-side retention of your data. Data held locally is retained until you delete it in the
+app, delete the app's data folder, or uninstall the app.</p>
+
+<h2>11. Your rights</h2>
+<p>You remain in full control of your data. You can delete individual documents, signatures, saved
+profile details and language packs from within the app, or remove everything at once by deleting
+the app's data folder or uninstalling the app. Since we hold no copy of your data, there is nothing
+for us to delete on your behalf.</p>
+
+<h2>12. Security</h2>
+<p>App data is stored in your user account's application data folder, protected by your operating
+system's normal file permissions. Password-protected PDFs remain protected; passwords you enter are
+used only to open the document in memory and are not saved unless you choose to. Note that data in
+a per-user folder is readable by anyone with administrative access to that computer, so treat a
+shared machine accordingly.</p>
+
+<h2>13. Changes to this policy</h2>
+<p>If this policy changes, the updated version will be published at this same URL with a revised
+"Last updated" date. Material changes will also be noted in the app's release notes.</p>
+
+<h2>14. Contact</h2>
+<p>Questions about this policy or the app can be sent to
+<a href="mailto:sidd.pattnaik@gmail.com">sidd.pattnaik@gmail.com</a>.</p>
+
+<hr>
+<footer><a href="../">All app policies</a> &middot; Published at
+<a href="https://siddharthpattnaik.github.io/legal/niospdf/privacy-desktop.html">siddharthpattnaik.github.io/legal/niospdf/privacy-desktop.html</a></footer>
+
+</body>
+</html>
