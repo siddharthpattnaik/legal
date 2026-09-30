@@ -10,7 +10,7 @@
 
 <h1>Privacy Policy for NiosPDF (Android)</h1>
 <p class="meta">Application ID: <code>com.niospdf.app</code><br>
-Last updated: 20 September 2026<br>
+Last updated: 30 September 2026<br>
 Other platforms: <a href="privacy-ios.html">iOS</a> &middot; <a href="privacy-desktop.html">Windows and Mac</a></p>
 
 <p>NiosPDF ("the app") is a PDF viewer and editor. This policy explains what the app does
@@ -69,7 +69,9 @@ nothing about it runs, downloads or is sent anywhere until you turn it on in Set
 <ul>
   <li><strong>Offline models (the default).</strong> The assistant runs an AI model entirely on your
       device. No model is included in the app: you choose one in Settings and it is downloaded once
-      from <a href="https://huggingface.co">Hugging Face</a>, where the model's publisher hosts it.
+      from <a href="https://huggingface.co">Hugging Face</a>, from the repository that hosts it:
+      Qwen, LM Studio Community, HuggingFaceTB (SmolLM2, the Micro model) or CompendiumLabs
+      (bge-small-en-v1.5, the Lite smart document search model).
       The download request asks for the model file and nothing else — no document content,
       identifier or personal data is sent. As with any web request, Hugging Face receives your IP
       address and handles it under the
@@ -117,8 +119,9 @@ Nothing is installed unless you choose it.</p>
 
 <p>The app also bundles PDF, document-conversion and UI libraries (including Syncfusion, PdfPig
 and PDFsharp) and the llama.cpp inference engine, all of which run locally and perform no network
-communication. The AI models are published by the Qwen team (Alibaba Cloud) under the Apache 2.0
-licence and are downloaded from Hugging Face as described in section 5.</p>
+communication. The AI models are published by the Qwen team (Alibaba Cloud) and Hugging Face
+(SmolLM2) under the Apache 2.0 licence, and by BAAI (bge-small-en-v1.5) under the MIT licence, and
+are downloaded from Hugging Face as described in section 5.</p>
 
 <h2>7. Children's privacy</h2>
 <p>NiosPDF is a general-purpose productivity tool and is not directed at children under 13. Because
