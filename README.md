@@ -12,10 +12,11 @@ This repo is public **only** so Pages can serve it — no app source lives here.
 index.html            list of apps, linking to each policy
 assets/style.css      shared styling for every page
 _template/            starting point for a new app (not linked from index.html)
-niospdf/               NiosPDF, one page per platform
+niospdf/               NiosPDF, one privacy page per platform
   privacy-android.html
   privacy-ios.html
   privacy-desktop.html
+  terms.html           terms of use, shared by every platform
 ```
 
 ## Adding a new app
