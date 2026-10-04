@@ -10,7 +10,7 @@
 
 <h1>Privacy Policy for NiosPDF (Android)</h1>
 <p class="meta">Application ID: <code>com.niospdf.app</code><br>
-Last updated: 30 September 2026<br>
+Last updated: 4 October 2026<br>
 Other platforms: <a href="privacy-ios.html">iOS</a> &middot; <a href="privacy-desktop.html">Windows and Mac</a></p>
 
 <p>NiosPDF ("the app") is a PDF viewer and editor. This policy explains what the app does
@@ -22,6 +22,13 @@ choose to connect the optional AI assistant to an AI server of your own (see sec
 <p>We collect <strong>no personal information whatsoever</strong>. The app has no user accounts,
 no sign-in, no advertising, no analytics SDK, and no crash-reporting SDK. We operate no servers
 and receive no data from your device.</p>
+<p><strong>Reporting a problem.</strong> If the app runs into an error, Settings offers an
+<em>Email log</em> action. It opens your mail app with a message to the developer
+(support@spattnaik.in) already written, with the app and system version in the text and the crash
+log (section 3) attached. Nothing is sent by NiosPDF: you can read, change or delete the message
+and the attachment, and it goes only if you press Send. You can also share the log yourself or
+clear it in Settings. We use a report only to fix the problem it describes, and keep it only for
+as long as that takes.</p>
 
 <h2>2. Your documents and files</h2>
 <p>Every operation — viewing, editing, merging, splitting, annotating, filling and signing forms,
@@ -44,6 +51,10 @@ or clear its storage:</p>
       and, if you configured one, your own AI server's address, model name and API key, encrypted
       with a key held by the Android Keystore.</li>
   <li>App settings and preferences, such as theme and default OCR language.</li>
+  <li>A crash log: a short technical record of the most recent errors the app could not handle
+      (when each happened and where in the app's code it failed, and Android's own record of why the previous session ended). An error message can
+      occasionally name a file. The log never leaves your device unless you send or share it (section 1),
+      and you can clear it in Settings.</li>
 </ul>
 
 <h2>4. Permissions the app requests, and why</h2>
@@ -89,7 +100,7 @@ nothing about it runs, downloads or is sent anywhere until you turn it on in Set
       removed from memory when it has been idle for a short while, when you leave the app, and when
       the system is short of memory.</li>
   <li><strong>Reporting an answer.</strong> The assistant's header has a flag, "Report this answer".
-      It opens your mail app with a message to the developer already written: the question you asked and the
+      It opens your mail app with a message to the developer (support@spattnaik.in) already written: the question you asked and the
       answer you are reporting (or the summary), which model wrote it, and the app and system version.
       No document text and no server address is included. Nothing is sent by NiosPDF: the message is
       in your mail app, you can change or delete any of it, and it goes only if you press Send. If you
@@ -107,7 +118,8 @@ nothing about it runs, downloads or is sent anywhere until you turn it on in Set
 through Google Play services, for page detection and OCR. Recognition runs on your device; page
 images and recognised text are not sent to Google by NiosPDF. Google Play services may download
 the required models over the network and may collect its own operational and diagnostic
-information under Google's own policies. See
+information under Google's own policies. ML Kit's own usage logging is switched off inside
+NiosPDF: the usage records it would otherwise upload from the app are discarded on your device. See
 <a href="https://developers.google.com/ml-kit/terms">Google ML Kit terms</a> and the
 <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
